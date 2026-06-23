@@ -12,3 +12,6 @@ jobs:
 
       - name: Terraform Validate
         run: echo "Terraform validation placeholder"
+
+        
+# issue fixed
