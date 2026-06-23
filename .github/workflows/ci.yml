@@ -1,0 +1,14 @@
+name: CI Workflow
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Terraform Validate
+        run: echo "Terraform validation placeholder"
